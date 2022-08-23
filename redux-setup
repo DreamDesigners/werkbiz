@@ -1,0 +1,35 @@
+Dependencies
+
+STEP 1
+1) npm install --save redux
+2) npm install --save react-redux
+2) npm install --save redux-thunk
+
+
+
+
+
+STEP 2
+1) create store folder
+   =>  a) reducer folder
+   =>  b) action folder
+   =>  c) action Type
+   => index.js 
+
+
+STEP 3
+
+        FOLDER STRUCTURE 
+
+        |---store
+        |------actions
+        |------actionTypes
+        |
+        |------reducer
+        |----------index.js
+        |
+        |------index.js
+
+
+
+
