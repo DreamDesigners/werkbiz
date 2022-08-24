@@ -352,17 +352,17 @@
   .navbar-collapse {
     position: absolute;
     top: 100%;
-    background-color: #242424;
+    background-color: #001A4B;
     left: 0px;
     right: 0px;
-    max-height: 70vh;
+    height: 170vh;
     overflow-y: auto;
     box-shadow: 0px 40px 50px 0px rgba(137, 139, 142, 0.15);
     /*border-top:1px solid #F3F3F3;*/
   }
 
   .dark-style .navbar-collapse {
-    background: #17192b;
+    background: #001A4B;
   }
 
   /*Menu Four*/
@@ -380,8 +380,8 @@
   }
 
   .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    padding: 15px;
-    font-size: 16px;
+    padding: 48px 10px 10px 40px;
+    font-size: 26px;
     margin: 0;
   }
 
@@ -390,20 +390,20 @@
   }
 
   .dark-style .navbar .navbar-collapse .navbar-nav .nav-item:last-child .nav-link {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
   }
 
   .navbar .navbar-collapse .navbar-nav .nav-item:last-child .nav-link {
-    border-bottom: 1px solid #F3F3F3;
+    /* border-bottom: 1px solid #F3F3F3; */
   }
 
   /*Menu Four*/
   .theme-menu-four .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    border-top: 1px solid #ececec;
+    /* border-top: 1px solid #ececec; */
   }
 
   .theme-menu-four .navbar .navbar-collapse .navbar-nav .nav-item:last-child .nav-link {
-    border-bottom: 1px solid #ececec;
+    /* border-bottom: 1px solid #ececec; */
   }
 
   .theme-menu-four .right-button-group,

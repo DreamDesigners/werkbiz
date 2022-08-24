@@ -485,7 +485,7 @@ h6 {
   position: absolute;
   z-index: 1;
   bottom: 640px;
-  left: 4%;
+  left: 6%;
   width: 250px;
 }
 
@@ -1129,9 +1129,21 @@ body .theme-btn-nine1:hover {
 }
 
 
-.how-it-works:hover {
-  /* padding: 10px; */
-  /* box-shadow: 2px 2px 10px none; */
+
+.theme-btn-nine2 {
+  color: #2E89FA;
+  background: #fff;
+}
+
+.theme-btn-nine2:hover {
+  color: #fff !important;
+  background: #2E89FA !important;
+  transition: all 0.8s ease-in-out;
+}
+
+.theme-btn-nine3 {
+  color: #fff !important;
+  background: #2E89FA !important;
 }
 
 
@@ -5027,13 +5039,13 @@ body .theme-btn-thirteen:hover {
 
 .fancy-short-banner-three .form-wrapper form {
   position: relative;
-  height: 70px;
+  height: 60px;
   background: #fff;
-  border-radius: 7px;
+  border-radius: 60px;
 }
 
 .fancy-short-banner-three .form-wrapper form input {
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 18px;
   width: 100%;
   border: none;
@@ -5044,11 +5056,11 @@ body .theme-btn-thirteen:hover {
 
 .fancy-short-banner-three .form-wrapper form button {
   position: absolute;
-  right: 8px;
-  bottom: 8px;
-  top: 8px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
   width: 150px;
-  border-radius: 6px;
+  border-radius: 60px;
   color: #fff;
   font-weight: 500;
   font-size: 16px;
@@ -5057,8 +5069,8 @@ body .theme-btn-thirteen:hover {
 }
 
 .fancy-short-banner-three .form-wrapper form button:hover {
-  background: #FFBA12;
-  box-shadow: 0px 15px 30px rgba(255, 186, 18, 0.2);
+  background: #001A4B;
+  /* box-shadow: 0px 15px 30px rgba(255, 186, 18, 0.2); */
 }
 
 .fancy-short-banner-three .form-wrapper p {
@@ -10192,7 +10204,7 @@ body .theme-btn-thirteen:hover {
   height: 100%;
   top: 0;
   left: 0;
-  border: 2px solid #2E89FA;
+  /* border: 2px solid #2E89FA; */
   z-index: -1;
   border-radius: 10px;
   opacity: 0;
@@ -10380,7 +10392,7 @@ body .theme-btn-thirteen:hover {
 
 .block-style-sixteen .screen-three {
   right: 0;
-  width: 35%;
+  width: 24%;
   margin-right: 50px;
   bottom: 0;
   z-index: 1;
@@ -12717,8 +12729,8 @@ body .theme-btn-thirteen:hover {
 }
 
 .clientSliderSix .feedback-wrapper .avatar {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -16920,8 +16932,46 @@ input::-webkit-inner-spin-button {
   background-image: url(../../assets/home/our-story-bg.png);
   background-repeat: no-repeat;
   background-position: center 0px;
-  width: 1500px;
+  width: 100%;
   background-size: cover;
   position: relative;
   z-index: 5;
+}
+
+#btnStarted {
+  color: #000;
+  background-color: #fff;
+}
+
+#btnStarted:hover {
+  color: #3088FE;
+}
+
+.howitworks {
+  display: flex;
+}
+
+#werkbiz-footer-logo {
+  width: 9em;
+}
+
+
+#werkbiz-footer-logo:hover {
+  width: 10em;
+}
+
+#footerIcon {
+  color: #fff;
+}
+
+#footerIcon:hover {
+  color: #001A4B;
+}
+
+.fontSize-60 {
+  font-size: 60px;
+}
+
+.how-it-works {
+  width: 250px;
 }

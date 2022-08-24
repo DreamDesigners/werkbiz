@@ -70,7 +70,7 @@ export default function OurPartners() {
                         <div class="col-lg-6">
                             <div class="title-style-four">
                                 <h2 class="font-montserrat fw-700">
-                                    We are <br /><span style={{ color: '#314FA5' }}>partnered</span> with
+                                    We are <br /><span style={{ color: '#3088FE' }}>partnered</span> with
                                     {/* <span>Who is using ours </span>
                                     deski docs? */}
                                 </h2>

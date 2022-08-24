@@ -17,11 +17,13 @@ export default function Counter() {
 
                 <div style={{ lineHeight: "1", backgroundPosition: "center" }} class="col-lg-3 col-sm-6 pr-bg d-flex">
                     <div class="counter-item  pr-table-wrapper">
-                        <div style={{ color: "#1B1C31" }} class="font-montserrat fs-50 fw-600 price">
-                            <span class="counter fw-700" style={{ color: '#1B1C31' }}>4675</span>
-                            <span class="fw-700">+</span>
+                        <div style={{ background: '#fff', padding: '50px 20px' }}>
+                            <div style={{ color: "#1B1C31", padding: '0px' }} class="font-montserrat fs-50 fw-600 price">
+                                <span class="counter fw-700" style={{ color: '#1B1C31' }}>4675</span>
+                                <span class="fw-700">+</span>
+                            </div>
+                            <div style={{ color: "#1B1C31" }} class="bill-cycle fw-500">Pincodes</div>
                         </div>
-                        <div style={{ color: "#1B1C31" }} class="bill-cycle fw-500">Pincodes</div>
                     </div>
                 </div>
 

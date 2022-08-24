@@ -22,7 +22,7 @@ export default function Werkbiz() {
                                     Our technology is your platform, for every business requirement.
                                 </p>
                                 <br />
-                                <a onClick={handleBackContact} style={{ cursor: "pointer", borderRadius: "10px", background: "white", color: '#000', fontWeight: 700 }} class="m-auto fw-500 fs-18 font-montserrat theme-btn-nine home-page-employer-action">
+                                <a onClick={handleBackContact} id='btnStarted' style={{ cursor: "pointer", borderRadius: "10px", fontWeight: 700 }} class="m-auto fw-500 fs-18 font-montserrat theme-btn-nine home-page-employer-action">
                                     Get Started
                                 </a>
                                 <br />

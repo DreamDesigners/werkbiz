@@ -44,7 +44,6 @@ export default function Contact() {
 
                                         <div class="counter-items row">
                                             <img src='assets/home/contact.png' alt="Contact" />
-
                                         </div>
                                     </div>
                                 </div>
@@ -59,15 +58,15 @@ export default function Contact() {
                 </div>
 
                 <div style={{ textAlign: 'center' }}>
-                    <h2 style={{ padding: '25px 0 5px', color: '#272D4E' }} class="font-montserrat title fs-50 fw-600">Supported by real people</h2>
-                    <p style={{ fontSize: "20px", padding: '10px 0px', color: '#94A2B3' }}>Our team  works remotely providing <br />customer support across multiple time zones.</p>
+                    <h2 style={{ padding: '20px 0 5px', color: '#272D4E' }} class="font-montserrat title fs-50 fw-600">Supported by real people</h2>
+                    <p style={{ fontSize: "20px", padding: '0px', color: '#94A2B3' }}>Our team  works remotely providing <br />customer support across multiple time zones.</p>
                 </div>
 
                 <div class="">
                     <div class="row">
-                        <div class="col-sm-12 order-first">
+                        <div class="col-sm-10 order-first" style={{ margin: 'auto' }}>
                             <div class="portfolio-thumb ">
-                                <img src="assets/home/group-image.png" alt="Supported by real people" />
+                                <img src="assets/contact/team.png" alt="Supported by real people" />
                             </div>
                         </div>
                     </div>

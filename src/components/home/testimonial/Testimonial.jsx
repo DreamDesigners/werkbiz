@@ -58,10 +58,10 @@ export default function Testimonial() {
             <div id="why-us" class="fancy-feature-ten mt-100 md-mt-70">
                 <div class="bg-wrapper">
                     <div class="container">
-                        <div class="title-style-four text-center mb-70 md-mb-50">
+                        <div class="title-style-four mb-70 md-mb-50">
                             <div class="row">
                                 <div class="col-lg-4 col-md-9 m-auto">
-                                    <h2 class="centerAlign font-montserrat fw-700">What makes us <span style={{ color: '#314FA5' }}>Unique?</span></h2>
+                                    <h2 class="font-montserrat fw-700">What makes us <span style={{ color: '#3088FE' }}>Unique?</span></h2>
                                 </div>
                                 <div class="col-xl-8 col-lg-9 m-auto">
                                     <Slider ref={slider} {...settings}>
@@ -105,11 +105,11 @@ export default function Testimonial() {
                                     </Slider>
 
                                     <div style={{ display: 'flex', float: 'right', margin: '30px 15px' }}>
-                                        <button style={{ background: '#fff', color: '#2E89FA', padding: '10px 15px', borderRadius: '5px' }} onClick={() => slider?.current?.slickPrev()}>
+                                        <button class="theme-btn-nine2" style={{ padding: '10px 15px', borderRadius: '5px' }} onClick={() => slider?.current?.slickPrev()}>
                                             <ArrowBackIcon />
                                         </button>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <button style={{ color: '#fff', background: '#2E89FA', padding: '10px 15px', borderRadius: '5px' }} onClick={() => slider?.current?.slickNext()}>
+                                        <button class="theme-btn-nine2" style={{ padding: '10px 15px', borderRadius: '5px' }} onClick={() => slider?.current?.slickNext()}>
                                             <ArrowForwardIcon />
                                         </button>
                                     </div>
