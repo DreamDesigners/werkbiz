@@ -43,7 +43,7 @@ export default function Contact() {
                                         </div>
 
                                         <div class="counter-items row">
-                                            <img src='assets/home/contact.png' alt="Contact" />
+                                            <img src='assets/contact/contact.png' alt="Contact" />
                                         </div>
                                     </div>
                                 </div>
