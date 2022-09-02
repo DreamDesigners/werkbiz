@@ -59,6 +59,7 @@ export default function NewsLetter() {
             setTimeout(() => {
                 console.log('Create Subscriber Detail', postData)
                 createSubscriber(postData)(subscriberDispatch)
+                setOpen(true);
             }, 500);
         }
 
