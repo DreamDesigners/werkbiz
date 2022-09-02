@@ -26,7 +26,7 @@ export default function HowItWorks() {
                         <img src="assets/home/how-works.png" alt="" data-aos="zoom-in-up" class="shapes screen-three how-it-works" />
                         <div class="container">
                             <div class="row">
-                                <div class="col-xl-7 col-lg-6" data-aos="fade-right" data-aos-duration="500">
+                                <div class="col-xl-6 col-lg-5" data-aos="fade-right" data-aos-duration="500">
                                     <div class="flexbox1">
                                         <div class="text-center">
                                             <h1 class="fs-50 mt-10 fw-700 font-montserrat">How does it works?</h1>

@@ -5,7 +5,7 @@ import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
 import { GlobalContext } from '../context/GlobalState';
 
-// import { createSubscriber } from '../context/actions/subscriberAction/addSubscriber';
+import { createSubscriber } from '../context/actions/subscriberAction/addSubscriber';
 import { Grid, TextField } from '@mui/material';
 import Fab from '@mui/material/Fab';
 import MessageIcon from '@mui/icons-material/Message';
@@ -61,9 +61,6 @@ export default function Find_Taskers_Common(props) {
     setOpen(false)
   }
 
-  // if(state.subscriber_email.match("gmail")){
-  //   errors.subscriber_email = 'Please enter official email';
-  // }
 
   const handleChangeNumberLeadInput = (event) => {
     console.log('event', event.target.value)
@@ -86,59 +83,60 @@ export default function Find_Taskers_Common(props) {
   };
 
 
-  // const handleClick = e => {
-  //   e.preventDefault()
-  //   setErrors(validation(state));
+  const handleClick = e => {
+    e.preventDefault()
+    setErrors(validation(state));
 
-  //   if (
-  //     state.subscriber_name !== '' &&
-  //     state.subscriber_email !== '' &&
-  //     !state.subscriber_email.match("gmail") &&
-  //     validateEmail(state.subscriber_email) &&
-  //     // validateGmail(!state.subscriber_email) &&   
-  //     state.subscriber_phone !== '' &&
-  //     state.subscriber_phone.length === 10 &&
-  //     state.subscriber_campany_name !== '' &&
-  //     state.subscriber_message !== ''
-  //   ) {
-  //     const postData = {
-  //       subscriber_name: state.subscriber_name,
-  //       subscriber_email: state.subscriber_email,
-  //       subscriber_phone: state.subscriber_phone,
-  //       subscriber_campany_name: state.subscriber_campany_name,
-  //       subscriber_message: state.subscriber_message,
-  //       subscriber_type: props.subscriber_type,
-  //       visitor_type: 'hire_tasker'
-  //     };
-  //     // createSubscriber(postData)(subscriberDispatch)
-  //     setState(init);
-  //     setOpen(true);
-  //     console.log('Create Subscriber Detail', postData)
-  //   }
-
-
-  // }
+    if (
+      state.subscriber_name !== '' &&
+      state.subscriber_email !== '' &&
+      // !state.subscriber_email.match("gmail") &&
+      validateEmail(state.subscriber_email) &&
+      // validateGmail(!state.subscriber_email) &&   
+      state.subscriber_phone !== '' &&
+      state.subscriber_phone.length === 10 &&
+      state.subscriber_campany_name !== '' &&
+      state.subscriber_message !== ''
+    ) {
+      const postData = {
+        full_name: state.subscriber_name,
+        email: state.subscriber_email,
+        phone: state.subscriber_phone,
+        company: state.subscriber_campany_name,
+        description: state.subscriber_message
+      };
+      setTimeout(() => {
+        console.log('Create Subscriber Detail', postData)
+        createSubscriber(postData)(subscriberDispatch)
+        setOpen(true);
+      }, 500);
+    }
 
 
+  }
 
-  // useEffect(() => {
-  //   console.log('subscriberState', subscriberState)
-  //   let status = subscriberState.createSubscriber && subscriberState.createSubscriber.data && subscriberState.createSubscriber.status
-  //   if (status == true) {
-  //     console.log("store", store);
-  //     subscriberState.createSubscriber = {
-  //       loading: false,
-  //       error: null,
-  //       data: null,
-  //     }
-  //   }
-  // }, [subscriberState])
+
+
+  useEffect(() => {
+    console.log('subscriberState.createSubscriber', subscriberState.createSubscriber)
+    let status = subscriberState.createSubscriber && subscriberState.createSubscriber.data && subscriberState.createSubscriber.status
+    if (status == 201) {
+      setState(init);
+      setOpen(true);
+      console.log("store", store);
+      subscriberState.createSubscriber = {
+        loading: false,
+        error: null,
+        data: null,
+      }
+    }
+  }, [subscriberState])
 
 
   return (
     <div >
       <Snackbar open={open} onClose={handleClose} autoHideDuration={2000} anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
-        <Alert severity="success" sx={{ width: '100%' }}>
+        <Alert severity="success" sx={{ width: '300px' }}>
           Form Successfully Submitted!
         </Alert>
       </Snackbar>
@@ -210,7 +208,7 @@ export default function Find_Taskers_Common(props) {
             {errors.subscriber_message && <p style={{ color: 'red' }}>{errors.subscriber_message}</p>}
           </div>
           <div class="input-field">
-            <button style={{ fontWeight: "500" }} type="submit" class=" template-btn">Submit </button>
+            <button style={{ fontWeight: "500" }} type="submit" class=" template-btn" onClick={handleClick}>Submit </button>
           </div>
         </form>
 

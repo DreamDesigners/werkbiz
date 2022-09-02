@@ -31,17 +31,6 @@ export default function Footer() {
                     <div class="container">
                         <div class="row justify-content-between">
 
-                            <div class="font-montserrat fw-500 col-lg-4 col-md-4 col-sm-6 address-list">
-                                <a style={{ cursor: "pointer", color: '#fff' }} onClick={handleBackHome} class="logo">
-                                    <img id='werkbiz-footer-logo' src="../../../../assets/img/werkbizlogo 2.png" alt="werkbiz-logo" />
-                                </a>
-                                <ul class="mt-10 info">
-                                    <li ><a target="_blank" href="https://goo.gl/maps/rKU4kPQeULfKnt6u9" style={{ color: '#fff', fontWeight: 700 }}><i class="fa fa-map"></i> &nbsp;B-Hive Workspace, Sector 6, HSR Layout, Bengaluru, Karnataka</a></li>
-                                    {/* <hr style={{ marginTop: "5px", background: '#fff' }} /> */}
-                                </ul>
-
-                            </div>
-
                             <div class="font-montserrat col-lg-2 col-md-2 col-sm-6 footer-list" >
                                 <h5 class="footer-title font-montserrat fw-700" style={{ color: '#fff' }}>Company</h5>
                                 <ul>
@@ -65,14 +54,23 @@ export default function Footer() {
                                 <h5 class="footer-title font-montserrat fw-700" style={{ color: '#fff' }}>Follow us</h5>
                                 <ul class="social-icon">
                                     {/* <li><a style={{ color: '#fff' }} target="_blank" href=""><i class="fa fa-facebook"></i></a></li> */}
-                                    <li><a id='footerIcon' style={{ fontSize: '24px' }} target="_blank" href="https://www.linkedin.com/company/werkbiz/"><i class="fa fa-linkedin"></i></a> <span style={{ fontSize: '18px' }}>&nbsp;LinkedIn</span></li>
-                                    <li><a id='footerIcon' style={{ fontSize: '24px' }} target="_blank" href="https://www.instagram.com/werkbiz/"><i class="fa fa-instagram"></i></a><span style={{ fontSize: '18px' }}>&nbsp;Instagram</span></li>
+                                    <li><a id='footerIcon' style={{ fontSize: '24px' }} target="_blank" href="https://www.linkedin.com/company/werkbiz/"><i class="fa fa-linkedin"></i><span style={{ fontSize: '18px' }}>&nbsp;&nbsp;LinkedIn</span></a></li>
+                                    <li><a id='footerIcon' style={{ fontSize: '24px' }} target="_blank" href="https://www.instagram.com/werkbiz/"><i class="fa fa-instagram"></i><span style={{ fontSize: '18px' }}>&nbsp;&nbsp;Instagram</span></a></li>
                                     {/* <li><a style={{ color: '#fff' }} target="_blank" href=""><i class="fa fa-twitter"></i></a></li> */}
                                     {/* <li><a style={{ color: '#fff' }} target="_blank" href=""><i class="fa fa-youtube"></i></a></li> */}
                                 </ul>
                             </div>
 
+                            <div class="font-montserrat fw-500 col-lg-4 col-md-4 col-sm-6 address-list">
+                                <a style={{ cursor: "pointer", color: '#fff' }} onClick={handleBackHome} class="logo">
+                                    <img id='werkbiz-footer-logo' src="../../../../assets/img/werkbizlogo 2.png" alt="werkbiz-logo" />
+                                </a>
+                                <ul class="mt-10 info">
+                                    <li ><a target="_blank" href="https://goo.gl/maps/rKU4kPQeULfKnt6u9" style={{ color: '#fff', fontWeight: 700 }}><i class="fa fa-map"></i> &nbsp;L-148, 5th Main Rd, near Rajesh Jewellers, Sector 6, HSR Layout, Bengaluru, Karnataka 560102</a></li>
+                                    {/* <hr style={{ marginTop: "5px", background: '#fff' }} /> */}
+                                </ul>
 
+                            </div>
                         </div>
                     </div>
                 </div>
