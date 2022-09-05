@@ -66,7 +66,7 @@ export default function Footer() {
                                     <img id='werkbiz-footer-logo' src="../../../../assets/img/werkbizlogo 2.png" alt="werkbiz-logo" />
                                 </a>
                                 <ul class="mt-10 info">
-                                    <li ><a target="_blank" href="https://goo.gl/maps/rKU4kPQeULfKnt6u9" style={{ color: '#fff', fontWeight: 700 }}><i class="fa fa-map"></i> &nbsp;L-148, 5th Main Rd, near Rajesh Jewellers, Sector 6, HSR Layout, Bengaluru, Karnataka 560102</a></li>
+                                    <li ><a target="_blank" href="https://goo.gl/maps/rKU4kPQeULfKnt6u9" style={{ color: '#fff', fontWeight: 700 }}><i class="fa fa-map"></i> &nbsp;BHIVE Workspace, L-148, 5th Main Rd, Sector 6, HSR Layout, Bengaluru, Karnataka 560102</a></li>
                                     {/* <hr style={{ marginTop: "5px", background: '#fff' }} /> */}
                                 </ul>
 
