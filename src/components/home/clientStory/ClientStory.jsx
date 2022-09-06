@@ -12,7 +12,7 @@ export default function ClientStory() {
                         <div class="clientSliderSix row" >
                             <div class="col-lg-6" style={{ display: 'flex', alignItems: 'center' }}>
 
-                                <h2 class="fs-50 fontSize-60 fw-700 font-montserrat">Here’s our <br /><span style={{ color: '#3088FE' }}>Story</span></h2>
+                                <h2 class="fs-50 fontSize-60 fw-700 font-montserrat">Here's what our <br /><span style={{ color: '#3088FE' }}>clients</span> say</h2>
                                 {/* <h1 class="centerAlign font-montserrat fw-700">Here’s our Story</h1> */}
                             </div>
                             <div class=" col-lg-6 md-mt-40">
