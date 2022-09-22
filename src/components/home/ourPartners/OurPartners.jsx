@@ -64,7 +64,7 @@ export default function OurPartners() {
                     <div style={{ background: '#FEFFDE' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../assets/logoweb/rapido.png" alt="" style={{ padding: '10px' }} /></div>
                     <div style={{ background: '#fff' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../../assets/logoweb/jihovah.png" alt="" style={{ padding: '10px' }} /></div>
 
-                    <div style={{ background: '#FFEBE9' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../../assets/logoweb/bounce.png" alt="" style={{ padding: '10px' }} /></div>
+                    <div style={{ background: '#FFEBE9' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../../assets/logoweb/uncled.png" alt="" style={{ padding: '10px' }} /></div>
                     <div style={{ background: '#FDCC4C' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../../assets/logoweb/flogo.png" alt="" style={{ padding: '10px' }} /></div>
 
                     {/* <div class="logo d-flex align-items-center justify-content-center"><img src="assets/home/brand1.png" alt="" /></div> */}
