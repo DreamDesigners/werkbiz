@@ -7,6 +7,7 @@ export default function Footer() {
 
     const handleBackHome = () => {
         history.push(localRoute.home)
+        window.scrollTo(0, 0);
     };
     const handleBackServices = () => {
         // history.push(localRoute.services)
@@ -21,6 +22,7 @@ export default function Footer() {
 
     const handleBackContact = () => {
         history.push(localRoute.contact)
+        window.scrollTo(0, 0);
     };
 
     return (

@@ -26,16 +26,16 @@ export default function HowItWorks() {
                         <img src="assets/home/how-works.png" alt="" data-aos="zoom-in-up" class="shapes screen-three how-it-works" />
                         <div class="container">
                             <div class="row">
-                                <div class="col-xl-6 col-lg-5" data-aos="fade-right" data-aos-duration="500">
+                                <div class="col-xl-5 col-lg-5" data-aos="fade-right" data-aos-duration="500">
                                     <div class="flexbox1">
                                         <div class="text-center">
                                             <h1 class="fs-50 mt-10 fw-700 font-montserrat">How does it works?</h1>
                                         </div>
                                     </div>
                                     <br />
-                                    <p style={{ fontSize: "20px", fontWeight: "600", padding: '10px 0px', background: '#fff', margin: '15px 0px', padding: '7px', borderRadius: '5px' }}><span style={{ background: '#377DFF', color: '#fff', padding: '5px 6px', borderRadius: '5px' }}><DoneIcon style={{ fontSize: '30px' }} /></span> &nbsp;Connect with the team</p>
-                                    <p style={{ fontSize: "20px", fontWeight: "600", padding: '10px 0px', background: '#fff', margin: '10px 0px', padding: '7px', borderRadius: '5px' }}><span style={{ background: '#377DFF', color: '#fff', padding: '5px 6px', borderRadius: '5px' }}><DoneIcon style={{ fontSize: '30px' }} /></span> &nbsp;We’ll Talk</p>
-                                    <p style={{ fontSize: "20px", fontWeight: "600", padding: '10px 0px', background: '#fff', margin: '10px 0px', padding: '7px', borderRadius: '5px' }}><span style={{ background: '#377DFF', color: '#fff', padding: '5px 6px', borderRadius: '5px' }}><DoneIcon style={{ fontSize: '30px' }} /></span> &nbsp;Lets get the ball rolling</p>
+                                    <p style={{ fontSize: "20px", fontWeight: "600", padding: '10px 0px', background: '#fff', margin: '15px 0px', padding: '7px', borderRadius: '5px' }}><span style={{ background: '#377DFF', color: '#fff', padding: '5px 6px', borderRadius: '5px' }}><DoneIcon style={{ fontSize: '30px' }} /></span> &nbsp;&nbsp;Connect with the team</p>
+                                    <p style={{ fontSize: "20px", fontWeight: "600", padding: '10px 0px', background: '#fff', margin: '10px 0px', padding: '7px', borderRadius: '5px' }}><span style={{ background: '#377DFF', color: '#fff', padding: '5px 6px', borderRadius: '5px' }}><DoneIcon style={{ fontSize: '30px' }} /></span> &nbsp;&nbsp;We’ll Talk</p>
+                                    <p style={{ fontSize: "20px", fontWeight: "600", padding: '10px 0px', background: '#fff', margin: '10px 0px', padding: '7px', borderRadius: '5px' }}><span style={{ background: '#377DFF', color: '#fff', padding: '5px 6px', borderRadius: '5px' }}><DoneIcon style={{ fontSize: '30px' }} /></span> &nbsp;&nbsp;Lets get the ball rolling</p>
                                 </div>
                             </div>
                         </div>
