@@ -23,6 +23,8 @@ export default function Footer() {
     const handleBackContact = () => {
         history.push(localRoute.contact)
         window.scrollTo(0, 0);
+
+
     };
 
     return (

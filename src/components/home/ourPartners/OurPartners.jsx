@@ -60,7 +60,7 @@ export default function OurPartners() {
                 <div class="logo-wrapper d-flex flex-wrap justify-content-center align-items-center">
 
                     <div style={{ background: '#ddd' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../../assets/logoweb/uber.png" alt="" style={{ padding: '10px' }} /></div>
-                    <div style={{ background: '#C7E5FF' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../../assets/home/brand2.png" alt="" style={{ padding: '10px' }} /></div>
+                    <div style={{ background: '#C7E5FF' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../../assets/logoweb/blue-smart.svg" alt="" style={{ padding: '10px' }} /></div>
                     <div style={{ background: '#FEFFDE' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../assets/logoweb/rapido.png" alt="" style={{ padding: '10px' }} /></div>
                     <div style={{ background: '#fff' }} class="logo d-flex align-items-center justify-content-center"><img src="../../../../assets/logoweb/jihovah.png" alt="" style={{ padding: '10px' }} /></div>
 
